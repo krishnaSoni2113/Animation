@@ -2,7 +2,7 @@
 
 Flutter basic animation application.
 
-## OverView
+## Overview
 
 - Drag functionality
   - Drag object anywhere in screen by using GestureDetector() widget
