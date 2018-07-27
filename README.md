@@ -1,8 +1,14 @@
 # flutter_animations
 
-A new Flutter application.
+Flutter basic animation application.
 
-## Getting Started
+## OverView
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+- Drag functionality
+  - Drag object anywhere in screen by using GestureDetector() widget
+  
+  
+- Zoom functionality
+  - Zomm In/Out object by using GestureDetector widget.
+
+  
