@@ -47,4 +47,40 @@ Flutter basic animation application.
 - Zoom functionality
   - Zoom In/Out object by using GestureDetector widget.
 
+  /*
+  Widget zoomObject() {
+      return GestureDetector(
+
+        onScaleStart: (data) {
+          previousZoomScale = zoomScale;
+        },
+
+        onScaleEnd: (data) {
+          previousZoomScale = 0.0;
+        },
+
+        onScaleUpdate: (data) {
+          setState(() {
+            zoomScale = previousZoomScale * data.scale;
+            if (zoomScale > 6.0) // Set max zoom scale here....
+              zoomScale = 6.0;
+            else if (zoomScale < 0.30)
+              zoomScale = 0.30;
+          });
+        },
+
+        child: Center(
+          child: Transform.scale(
+            scale: zoomScale,
+            child: Container(
+              height: objectSize,
+              width: objectSize,
+              color: Colors.red,
+            ),
+          ),
+        ),
+      );
+    }
+  */
+
   
