@@ -47,7 +47,7 @@ Flutter basic animation application.
 - Zoom functionality
   - Zoom In/Out object by using GestureDetector widget.
 
-  /*
+
   Widget zoomObject() {
       return GestureDetector(
 
@@ -81,6 +81,6 @@ Flutter basic animation application.
         ),
       );
     }
-  */
+
 
   
